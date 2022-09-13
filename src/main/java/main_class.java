@@ -5,7 +5,7 @@ public class main_class {
         System.out.println("hello world 2!");
         String a= lab0.vivod();
         System.out.println(a);
-        System.out.println("1");
+
     }
 
 
