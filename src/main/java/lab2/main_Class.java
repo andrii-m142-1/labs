@@ -45,8 +45,8 @@ public class main_Class {
         System.out.println("Параметри матриці розміром " + array.length+ "x"+array[0].length+":");
         System.out.println("min:"+parametrs.get("min"));
         System.out.println("max:"+parametrs.get("max"));
-        System.out.println("avg:"+parametrs.get("avg"));
-        System.out.println("g.avg:"+parametrs.get("g.avg"));
+        System.out.println("Середнє:"+parametrs.get("avg"));
+        System.out.println("Середнє геометричне:"+parametrs.get("g.avg"));
 
 
     }
@@ -93,6 +93,8 @@ public class main_Class {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 array[i][j] = (int) ((20 * Math.random()) * Math.pow(-1, ((int) (10 * Math.random())))); //рандом число помножити на (-1)^(рандом). Якщо степінь буде непарна, то знак елементу буде від'ємний, якщо парна - додатній.
+                while(array[i][j]==0)
+                    array[i][j] = (int) ((20 * Math.random()) * Math.pow(-1, ((int) (10 * Math.random())))); // якщо число є 0, тоді під час розрахунку середнього геометричного, програма буде повертати 0
             }
         }
 
@@ -106,6 +108,10 @@ public class main_Class {
             for (int j = 0; j < col; j++) {
                 System.out.println("Введіть елемент ["+i+"] ["+j+"]:");
                 array[i][j] = scan.nextInt();
+                while(array[i][j]==0){
+                    System.out.println("Помилка: введено 0, це призведе до помилок під час розрахунку сер. геометричного.\nВведіть елемент ["+i+"] ["+j+"]:");
+                    array[i][j] = scan.nextInt(); // якщо число є 0, тоді під час розрахунку середнього геометричного, програма буде повертати 0
+                }
             }
         }
         return array;
