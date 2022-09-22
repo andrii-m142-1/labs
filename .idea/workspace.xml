@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b53b3ca-67a2-46ca-a96f-61eedaa74635" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/main_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/main_Class.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663850026741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="лаба2, исправил ошибку с 0">
+      <created>1663854217259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663854217259</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
