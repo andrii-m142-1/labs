@@ -5,6 +5,8 @@ import java.util.*;
 public class main_Class {
     static int mr = 20;// max rows
     static int mc = 20;// max column
+
+    static int high_border = 20; //верхня границя діапазону випадкових чисел
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -72,13 +74,13 @@ public class main_Class {
 
     public static int[] size_random() {
         int rows, cols;
-        rows = (int) (20 * Math.random());
+        rows = (int) (mr * Math.random());
         while (rows <= 0 || rows > mr) {
-            rows = (int) (20 * Math.random());
+            rows = (int) (mr * Math.random());
         }
-        cols = (int) (20 * Math.random());
+        cols = (int) (mc * Math.random());
         while (cols <= 0 || cols > mc) {
-            cols = (int) (20 * Math.random());
+            cols = (int) (mc * Math.random());
         }
 
         int[] array_info = {rows, cols};
@@ -92,9 +94,9 @@ public class main_Class {
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                array[i][j] = (int) ((20 * Math.random()) * Math.pow(-1, ((int) (10 * Math.random())))); //рандом число помножити на (-1)^(рандом). Якщо степінь буде непарна, то знак елементу буде від'ємний, якщо парна - додатній.
+                array[i][j] = (int) ((high_border * Math.random())); //
                 while(array[i][j]==0)
-                    array[i][j] = (int) ((20 * Math.random()) * Math.pow(-1, ((int) (10 * Math.random())))); // якщо число є 0, тоді під час розрахунку середнього геометричного, програма буде повертати 0
+                    array[i][j] = (int) ((high_border * Math.random())); // якщо число є 0, тоді під час розрахунку середнього геометричного, програма буде повертати 0
             }
         }
 
@@ -108,8 +110,8 @@ public class main_Class {
             for (int j = 0; j < col; j++) {
                 System.out.println("Введіть елемент ["+i+"] ["+j+"]:");
                 array[i][j] = scan.nextInt();
-                while(array[i][j]==0){
-                    System.out.println("Помилка: введено 0, це призведе до помилок під час розрахунку сер. геометричного.\nВведіть елемент ["+i+"] ["+j+"]:");
+                while(array[i][j]<=0){
+                    System.out.println("Помилка: введено 0 або менше 0, це призведе до помилок під час розрахунку сер. геометричного.\nВведіть елемент ["+i+"] ["+j+"]:");
                     array[i][j] = scan.nextInt(); // якщо число є 0, тоді під час розрахунку середнього геометричного, програма буде повертати 0
                 }
             }
@@ -130,7 +132,7 @@ public class main_Class {
         Map<String,Double> parameters= new HashMap<String,Double>();
         int min=array[0][0],    max=array[0][0]; // позначаємо мінімальний, максимальний початкові елементи
         int sum=0;//сума
-        int multpl=1; // умножение
+        double multpl=1; // добуток елементів
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 if (array[i][j] < min) {
@@ -146,7 +148,7 @@ public class main_Class {
         parameters.put("min",Double.valueOf(min));
         parameters.put("max",Double.valueOf(max));
         parameters.put("avg",Double.valueOf(sum)/(array.length*array[0].length));
-        parameters.put("g.avg",Math.pow(multpl,1/(array.length*array[0].length)));
+        parameters.put("g.avg",Math.pow(multpl,1/Double.valueOf(array.length*array[0].length))); // возведення добутку елементів у N корінь, де N кількість елементів  //Math.pow(multpl,Math.pow(array.length*array[0].length,-1))
 
         return parameters;
 
