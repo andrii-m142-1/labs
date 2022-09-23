@@ -4,11 +4,7 @@ public class lab0 {
 
     public static void main(String[] args)
     {
+        System.out.println("Hello World!");
+    }
 
-    }
-    public static  String vivod() {
-        System.out.println("виклик функції vivod!");
-        String abc = "hello";
-        return abc;
-    }
 }

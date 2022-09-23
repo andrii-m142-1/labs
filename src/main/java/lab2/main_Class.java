@@ -23,8 +23,8 @@ public class main_Class {
 
         int[] arr_size;
         if (input == 1) {
-            arr_size = size_from_keyboard();
-        } else arr_size = size_random();
+            arr_size = set_size_from_keyboard();
+        } else arr_size = set_size_random();
 
         ////
         int[][] array;
@@ -41,7 +41,7 @@ public class main_Class {
             array = create_array_wkb(arr_size[0], arr_size[1]);
         } else array = create_rand_array(arr_size[0], arr_size[1]);
 
-        array_print(array);//виведення матриці на екран
+        print_array(array);//виведення матриці на екран
 
         Map<String,Double> parametrs=eval_param(array); // розрахунок параметрів
         System.out.println("Параметри матриці розміром " + array.length+ "x"+array[0].length+":");
@@ -53,7 +53,7 @@ public class main_Class {
 
     }
 
-    public static int[] size_from_keyboard() {
+    public static int[] set_size_from_keyboard() {
 
         System.out.println("Введіть кількість рядків:");
         int rows = scan.nextInt();
@@ -72,7 +72,7 @@ public class main_Class {
         return array_info;
     }
 
-    public static int[] size_random() {
+    public static int[] set_size_random() {
         int rows, cols;
         rows = (int) (mr * Math.random());
         while (rows <= 0 || rows > mr) {
@@ -119,7 +119,7 @@ public class main_Class {
         return array;
     }
 
-    public static void array_print(int [][] array) {
+    public static void print_array(int [][] array) {
         System.out.println("Матриця має наступний вигляд:");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {

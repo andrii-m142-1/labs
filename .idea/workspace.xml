@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8b53b3ca-67a2-46ca-a96f-61eedaa74635" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab0/lab0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab0/lab0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab1/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main_class.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.lab0">
+    <configuration name="lab0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab0.lab0" />
+      <module name="labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab2.main_Class" />
       <module name="labs" />
@@ -64,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab0" />
         <item itemvalue="Application.main_Class" />
       </list>
     </recent_temporary>
@@ -119,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663854217259</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="лаба2, исправил ошибку с 0">
+      <created>1663855146451</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663855146451</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
