@@ -2,6 +2,7 @@ package lab3.Controller;
 
 import lab3.Model.Chief;
 import lab3.Model.Faculty;
+import lab3.Model.Sex;
 import lab3.Model.University;
 
 import java.util.ArrayList;
@@ -14,12 +15,18 @@ public class UniversityCreator {
         FacultyCreator FacultyCreator = new FacultyCreator();
         ChiefCreator ChiefCreator = new ChiefCreator();
         Random random = new Random();
+
         University university = new University();
+
         university.setName(UniversityName);
         university.setCity(CityName);
         university.setYear(UniversityYear);
-        Chief chief = ChiefCreator.create("chief of "+UniversityName,20,university);
+
+        Sex sex=null;
+        if(random.nextInt(10)>5) sex=Sex.man; else sex=Sex.woman;
+        Chief chief = ChiefCreator.create("chief of "+UniversityName,sex,20,university);
         university.setChief_name(chief.getName());
+
         List<Faculty> faculties= new ArrayList<>();
 
         for (int i=0;i<NumberOfFaculties;i++)

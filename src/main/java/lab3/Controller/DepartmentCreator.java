@@ -16,7 +16,9 @@ public class DepartmentCreator {
         department.setName(name);
         department.setUniversity_Name(faculty.getUniversity_Name());
         department.setFaculty_Name(faculty.getName());
-        Chief chief = ChiefCreator.create("chief of " +name,20,department);
+        Sex sex=null;
+        if(random.nextInt(10)>5) sex=Sex.man; else sex=Sex.woman;
+        Chief chief = ChiefCreator.create("chief of " +name,sex,20,department);
         department.setChief_name(chief.getName());
         for (int i = 0; i < countOfGroups; i++) {
             Group group = GroupCreator.create("group"+(i+1), random.nextInt(10),department);

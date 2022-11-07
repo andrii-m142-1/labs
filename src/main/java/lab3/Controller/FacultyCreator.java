@@ -14,7 +14,9 @@ public class FacultyCreator {
         Faculty faculty = new Faculty();
         faculty.setName(name);
         faculty.setUniversity_Name(university.getName());
-        Chief chief = ChiefCreator.create("chief of "+name,20,faculty);
+        Sex sex=null;
+        if(random.nextInt(10)>5) sex=Sex.man; else sex=Sex.woman;
+        Chief chief = ChiefCreator.create("chief of "+name,sex,20,faculty);
         faculty.setChief_name(chief.getName());
         List<Department> departaments = new ArrayList<>();
         for (int i=0;i<numberOfDepartments;i++)

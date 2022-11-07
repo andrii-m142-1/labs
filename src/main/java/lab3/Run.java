@@ -15,14 +15,28 @@ package lab3;
 //        В програмі активно рекомендується використовувати абстрактні класи та інтерфейси
 
 import lab3.Controller.UniversityCreator;
+import lab3.Model.Faculty;
 import lab3.Model.University;
 
 public class Run {
     public static void main(String[] args) {
+        University university1;
+        university1=createTypicalUniversity();
+        System.out.println("Name of university: " + university1.getName());
+        System.out.println("University city: " + university1.getCity());
+        System.out.println("University year of foundation: " + university1.getYear());
+        System.out.println("University director's name: " + university1.getChief_name());
+        System.out.println("University faculties: ");
+        for (Faculty i : university1.getFaculties()){
+            System.out.println(i.getName());
+        }
+
+
+    }
+    public static University createTypicalUniversity(){
         UniversityCreator universityCreator=new UniversityCreator();
 
-        University university1 = universityCreator.create("Dnipro University",2000,"Dnipro",3);
-
-
+        University university = universityCreator.create("Dnipro University",2000,"Dnipro",3);
+        return university;
     }
 }
