@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b53b3ca-67a2-46ca-a96f-61eedaa74635" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab3/Model/Sex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/ChiefCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/ChiefCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/DepartmentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/DepartmentCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/FacultyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/FacultyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/GroupCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/GroupCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/StudentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/StudentCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Controller/UniversityCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Controller/UniversityCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Model/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Model/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab3/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667820860502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="лаб 3">
+      <created>1667827361308</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667827361308</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
