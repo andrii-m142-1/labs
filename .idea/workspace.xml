@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b53b3ca-67a2-46ca-a96f-61eedaa74635" name="Changes" comment="">
+    <list default="true" id="8b53b3ca-67a2-46ca-a96f-61eedaa74635" name="Changes" comment="лаб 3">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/wrapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,21 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/deika/.m2/repository/gson-master",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="lab0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="lab0" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab0.lab0" />
       <module name="labs" />
       <extension name="coverage">
@@ -80,7 +91,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab0" />
         <item itemvalue="Application.main_Class" />
       </list>
     </recent_temporary>
@@ -171,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667832592299</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="лаб 3">
+      <created>1669196030592</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669196030592</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +264,16 @@
           <line>33</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab4/Run.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lab4/Run.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/lab2/main_Class.java</url>
           <line>91</line>
@@ -258,5 +285,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="name_file" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

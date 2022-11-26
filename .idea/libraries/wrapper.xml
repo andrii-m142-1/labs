@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="wrapper">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/1.9" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.0" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.1" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.10" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.11" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.11.rc1" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.12" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.13" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.14" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.2.0" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.3" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.4" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.5" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.6" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.7" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.8" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/docs/javadoc/2.9" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/.mvn/wrapper" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/src/main/java" />
+      <root url="file://$MAVEN_REPOSITORY$/jackson-core-2.15/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

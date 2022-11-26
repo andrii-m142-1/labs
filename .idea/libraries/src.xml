@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/examples/android-proguard-example/src" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/extras/src/main/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/extras/src/test/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/gson/src/main/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/gson/src/main/java-templates" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/gson/src/test/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/metrics/src/main/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/proto/src/main/java" />
+      <root url="file://$MAVEN_REPOSITORY$/gson-master/proto/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
